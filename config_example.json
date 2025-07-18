@@ -1,0 +1,25 @@
+{
+    "company_name": "PT. Contoh Perusahaan",
+    "report_title": "Laporan Otomatis",
+    "output_directory": "reports",
+    "date_format": "%d/%m/%Y",
+    "colors": {
+        "header": "366092",
+        "subheader": "5B9BD5",
+        "accent": "70AD47"
+    },
+    "email_settings": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "your_email@gmail.com",
+        "recipients": [
+            "manager@company.com",
+            "team@company.com"
+        ]
+    },
+    "report_schedule": {
+        "daily_time": "09:00",
+        "weekly_day": "Monday",
+        "weekly_time": "08:00"
+    }
+}
